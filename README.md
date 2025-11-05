@@ -68,8 +68,8 @@ ml_pipeline_optimizer/
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ml-pipeline-optimizer.git
-cd ml-pipeline-optimizer
+git clone https://github.com/akaragkiozakis/ML-Powered-Pipeline-Optimizer.git
+cd ML-Powered-Pipeline-Optimizer
 
 # Create virtual environment
 python -m venv venv
@@ -134,14 +134,6 @@ python model_training/train_model.py
 - **Runtime Predictor**: Random Forest Regressor for execution time prediction
 - **Performance Metrics**: MAE, RMSE, R² for model evaluation
 
-### Model Performance:
-```
-Current Model Metrics:
-- MAE: <varies based on data>
-- RMSE: <varies based on data>  
-- R²: <varies based on data>
-```
-
 ## 💡 Use Cases & Scenarios
 
 ### 🔍 Performance Optimization
@@ -159,41 +151,10 @@ Current Model Metrics:
 - **Redundancy Detection**: Eliminate duplicate computations and unnecessary operations
 - **Caching Strategy**: Optimize materialization points for complex pipelines
 
-## 🔮 Roadmap
-
-### Phase 1: Foundation ✅
-- [x] Data ingestion and preprocessing
-- [x] Feature engineering pipeline
-- [x] Basic ML model for runtime prediction
-- [x] Model evaluation metrics
-
-### Phase 2: Intelligence 🚧
-- [ ] REST API for recommendations
-- [ ] Advanced ML models (XGBoost, Neural Networks)
-- [ ] Real-time Spark History Server integration
-- [ ] Airflow metadata integration
-
-### Phase 3: Production 📋
-- [ ] MLflow integration for model tracking
-- [ ] Grafana dashboards for monitoring
-- [ ] Automated recommendation system
-- [ ] A/B testing framework for optimizations
-
-### Phase 4: Advanced Features 🎯
-- [ ] Reinforcement learning for dynamic optimization
-- [ ] Multi-objective optimization (cost vs. performance vs. reliability)
-- [ ] Custom optimization policies
-- [ ] Integration with cloud auto-scaling services
-
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
-## 🙏 Acknowledgments
-
-- Apache Spark community for performance insights
-- scikit-learn contributors for ML framework
-- Open source community for inspiration and support
-
+⭐ **Star this repository if you find it helpful!**
